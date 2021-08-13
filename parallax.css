@@ -1,0 +1,115 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'lato', sans-serif;
+    font-weight: bold;
+    color: #666;
+    line-height:1.8em;
+}
+.pimg1,.pimg2,.pimg3 {
+    position: relative ;
+    opacity: 0.70;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+}
+/*fixed pAarllaxs
+normal scroll*/
+
+.pimg1{
+    background-image:url("background.jpg");
+     min-height: 100%;
+}
+.pimg2{
+    background-image:url("imageone.jpeg");
+    min-height: 600px;
+}
+.pimg3{
+    background-image:url("imagegirl.jpg");
+    min-height: 600px;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+   
+}
+  .section-light{
+     background-color: #f4f4f4;
+     color: #666; 
+  } 
+
+  .section-dark{
+    background-color: #282328;
+    color: #ddd
+  } 
+  .ptext1{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center; 
+    color: #000;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext2{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center; 
+    color: #000;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+ /* .ptext3{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center; 
+    color: #000;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    text-transform: uppercase; 
+} */
+.ptext4{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center; 
+    color: #000;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.border{
+    background-color:#d1d3dd;
+     color:rgb(9, 16, 29);
+}
+
+.ptext .border-trans{
+    background-color:transparent;
+}
+.border-new{
+position: absolute;
+top:50%;
+width: 100%;
+text-align: center; 
+color: #000;
+font-size: 50px;
+font-weight: 600;
+letter-spacing: 8px;
+text-transform: uppercase;
+
+}
+@media(max-width:566px;){
+    .pimg1,.pimg2,.pimg3{
+        background-attachment: scroll;
+    }
+}
